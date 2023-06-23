@@ -1,0 +1,141 @@
+body{
+    background-color: rgb(52, 48, 48);
+}
+.header{
+    display: flex;
+    background-color: black;
+    border: 15px solid rgb(87, 220,47);
+    border-radius: 15px;
+    height: 120px;
+}
+.header img{
+    border-right: 15px solid rgb(87, 220, 47);
+    
+}
+.one{
+    display: flex;
+    color:rgb(87, 220, 47);
+    align-items: center;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 13px;
+
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: rgb(87, 220, 47);
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 321px;
+    text-decoration: none;
+    width: 250px;
+    transition: background-color 1s;
+}
+.contact:hover{
+    background-color:rgb(87, 220, 47);
+    color: black;
+}
+.download{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: rgb(87, 220, 47);
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    width: 250px;
+    transition: background-color 1s;
+}
+.download:hover{
+    background-color:rgb(87, 220, 47);
+    color: black;
+}
+.amongus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: rgb(87, 220, 47);
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    width: 250px;
+    transition: background-color 1s;
+}
+.amongus:hover{
+    background-color:rgb(87, 220, 47);
+    color: black;
+}
+.swiper-slide img{
+    width: 50%;
+    height: 50%;
+}
+h1{
+    color:rgb(87, 220, 47);
+}
+.swiper-slide{
+    margin-left: 80px;
+}
+.margin img{
+    margin-top: 20px;
+}
+.demo{
+    display: flex;
+    text-align:center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    font-size: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+  } 
+  .rainbow{
+          animation: rainbow 2.5s linear;
+          animation-iteration-count: infinite;
+  }
+
+  @keyframes rainbow{
+          100%,0%{
+              color: rgb(255,0,0);
+          }
+          8%{
+              color: rgb(255,127,0);
+          }
+          16%{
+              color: rgb(255,255,0);
+          }
+          25%{
+              color: rgb(127,255,0);
+          }
+          33%{
+              color: rgb(0,255,0);
+          }
+          41%{
+              color: rgb(0,255,127);
+          }
+          50%{
+              color: rgb(0,255,255);
+          }
+          58%{
+              color: rgb(0,127,255);
+          }
+          66%{
+              color: rgb(0,0,255);
+          }
+          75%{
+              color: rgb(127,0,255);
+          }
+          83%{
+              color: rgb(255,0,255);
+          }
+          91%{
+              color: rgb(255,0,127);
+          }
+  }
+  .mySwiper{
+    border-bottom: 10px solid rgb(87,220,27);
+    
+  }

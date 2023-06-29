@@ -6,7 +6,9 @@ body{
     background-color: black;
     border: 15px solid rgb(87, 220,47);
     border-radius: 15px;
-    height: 120px;
+    height: 130px;
+    position: fixed;
+    z-index: 999;
 }
 .header img{
     border-right: 15px solid rgb(87, 220, 47);
@@ -16,9 +18,8 @@ body{
     display: flex;
     color:rgb(87, 220, 47);
     align-items: center;
-    font-size: 45px;
+    font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 1px;
 
 }
 .contact{
@@ -33,7 +34,7 @@ body{
     text-decoration: none;
     width: 200px;
     transition: background-color 1s;
-    margin-left: 425px;
+    margin-left: 430px;
 }
 .contact:hover{
     background-color:rgb(87, 220, 47);
@@ -117,7 +118,50 @@ h1{
     background-color:rgb(121, 120, 120);
     color:rgb(87, 220, 47);
 }
+.us h1{
+    text-align: center;
+    margin-top: 70px;
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+.container h3{
+    margin-top: 10px;
+    color: white;
+}
+.about h1{
+    text-align: center;
+    margin-top: 70px;
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.row a:hover{
+    box-shadow: red 0px 0px 14px 10px;
+}
+.about{
+    height: 50vh;
+}
+.box{
+    height: 50vh;
+}
+.effect{
+    height: 100px;
+    width: 900px;
+    background-color:rgb(87, 220, 47);
+    display: flex;
+    margin-bottom: 1000px;
+    transition: 1s;
+    border-radius: 15px;
+    border: 5px solid red;
+    box-shadow: red 0px 0px 14px 10px;
+    margin-left: 300px;
+}
+.box:hover .effect{
+    background-color:rgb(87, 220, 47);
+    transform: scale(1.6)
+    translateY(30px)
+    
+}
   @keyframes rainbow{
           100%,0%{
               color: rgb(255,0,0);

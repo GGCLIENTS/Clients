@@ -18,7 +18,7 @@ body{
     align-items: center;
     font-size: 45px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 13px;
+    margin-left: 1px;
 
 }
 .contact{
@@ -31,8 +31,9 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 321px;
     text-decoration: none;
-    width: 250px;
+    width: 200px;
     transition: background-color 1s;
+    margin-left: 425px;
 }
 .contact:hover{
     background-color:rgb(87, 220, 47);
@@ -96,6 +97,26 @@ h1{
           animation: rainbow 2.5s linear;
           animation-iteration-count: infinite;
   }
+  .container a{
+    background-color:rgb(87, 220, 47);
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border: 4px solid black;
+    border-radius: 15px;
+    height: 70px;
+    transition: color 1s;
+    transition: background-color 1s;
+    margin-top: 40px;
+}
+.container a:hover{
+    background-color:rgb(121, 120, 120);
+    color:rgb(87, 220, 47);
+}
 
   @keyframes rainbow{
           100%,0%{

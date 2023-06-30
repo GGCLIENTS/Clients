@@ -95,8 +95,8 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
   } 
   .rainbow{
-          animation: rainbow 2.5s linear;
-          animation-iteration-count: infinite;
+     animation: rainbow 2.5s linear;
+     animation-iteration-count: infinite;
   }
   .container a{
     background-color:rgb(87, 220, 47);
@@ -139,10 +139,10 @@ h1{
     box-shadow: red 0px 0px 14px 10px;
 }
 .about{
-    height: 50vh;
+    height: 40vh;
 }
 .box{
-    height: 50vh;
+    height: 40vh;
 }
 .effect{
     height: 100px;
@@ -162,6 +162,51 @@ h1{
     translateY(30px)
     
 }
+.footer{
+    height: 40vh;
+    background-color: rgb(43, 42, 42);
+    position: relative;
+}
+ h2{
+    color: white;
+    position: absolute;
+    bottom: 150px;
+}
+.footer a{
+    color: white;
+}
+ul{
+    position: absolute;
+    bottom: 10px;
+    left: 200px;
+}
+h5{
+    position: absolute;
+    bottom: 100px;
+    color: white;
+}
+p{
+    position: absolute;
+    bottom: 50px;
+    color: white;
+    left: 400px;
+    font-size: 30px;
+    width: 700px;
+}
+.on p{
+    color: white;
+    position: absolute;
+    top: 130px;
+    left: 0px;
+    font-size: 20px;
+}
+.on{
+    position: absolute;
+}
+ul{
+    list-style-type: none;
+}
+
   @keyframes rainbow{
           100%,0%{
               color: rgb(255,0,0);

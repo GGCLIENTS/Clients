@@ -144,6 +144,9 @@ h1{
 .box{
     height: 40vh;
 }
+.about{
+    margin-bottom: 20px;
+}
 .effect{
     height: 100px;
     width: 900px;
@@ -166,6 +169,7 @@ h1{
     height: 40vh;
     background-color: rgb(43, 42, 42);
     position: relative;
+    margin-top: 30px;
 }
  h2{
     color: white;
@@ -205,6 +209,38 @@ p{
 }
 ul{
     list-style-type: none;
+}
+.text{
+    display: flex;
+}
+.text h6{
+    margin-left: 310px;
+    color: black;
+    font-size: 25px;
+    z-index: 998;
+    margin-bottom: 30px;
+    background-color:rgb(87, 220, 47);
+    border: 3px solid black;
+    border-radius: 10px;
+}
+.image a{
+    text-decoration: none;
+}
+.image{
+    display: flex;
+}
+.image img{
+    width: 300px;
+    height: 350px;
+    transition: all 1s;
+    display: flex;
+    margin-left: 290px;
+}
+.image img:hover{
+    transform: translateY(-30px);
+    opacity: 0.3;
+    box-shadow: red 0px 0px 100px 14px;
+    border: 3px solid black;
 }
 
   @keyframes rainbow{
